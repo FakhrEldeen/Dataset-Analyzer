@@ -45,13 +45,15 @@
 /**
  * @brief Print the whole dataset
  *
- * This functions takes as an input the unsigned char arr and print it 
+ * This functions takes as an input the unsigned char arr and the length of that array and 
+ * print it 
  *
  * @param arr : the whole dataset
- *
+ * @param arr : the length of the dataset
+ * 
  * @return None 
  */
- void print_array(unsigned char arr);
+ void print_array(unsigned char arr, int length);
 
 
 
