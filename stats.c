@@ -9,13 +9,16 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file stats.c 
+ * @brief The C-programming file for the dataset analyzer project 
  *
- * <Add Extended Description Here>
+ * This is the C-programming file that contain functions of the project dataset analyzer that 
+ * can analyze an array of unsigned char and report analytics on maximium, minimum,
+ * median and mean of that dataset in addition it can reorder that dataset from large to small.
+ * All statistics rounded down to nearest integer. 
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author Fakhr Eldeen Gamal
+ * @date 20/11/2018
  *
  */
 
@@ -41,3 +44,31 @@ void main() {
 }
 
 /* Add other Implementation File Code Here */
+ void print_statistics(int mean, int median, int max, int min){
+
+}
+
+
+ void print_array(unsigned char arr){
+
+}
+
+
+ unsigned char find_median(unsigned char *arr, int length){
+
+}
+
+
+ unsigned char find_mean(unsigned char *arr, int length){
+
+}
+
+
+ unsigned char find_maximum(unsigned char *arr, int length){
+
+}
+
+
+ unsigned char find_minimum(unsigned char *arr, int length){
+
+}
