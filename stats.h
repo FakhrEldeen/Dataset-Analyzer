@@ -38,7 +38,7 @@
  *
  * @return None
  */
- void print_statistics(int mean, int median, int max, int min);
+ void print_statistics(unsigned char mean, unsigned char median, unsigned char max, unsigned char min);
 
 
 
@@ -53,7 +53,7 @@
  * 
  * @return None 
  */
- void print_array(unsigned char arr, int length);
+ void print_array(unsigned char arr[], unsigned int length);
 
 
 
@@ -69,7 +69,7 @@
  *
  * @return the median of the dataset
  */
- unsigned char find_median(unsigned char *arr, int length);
+ unsigned char find_median(unsigned char *arr, unsigned int length);
  
 
 
@@ -85,7 +85,7 @@
  *
  * @return the mean of the dataset
  */
- unsigned char find_mean(unsigned char *arr, int length);
+ unsigned char find_mean(unsigned char *arr, unsigned int length);
 
 
 /**
@@ -100,7 +100,7 @@
  *
  * @return the maximum of the dataset
  */
- unsigned char find_maximum(unsigned char *arr, int length);
+ unsigned char find_maximum(unsigned char *arr, unsigned int length);
 
 
 /**
@@ -115,7 +115,7 @@
  *
  * @return the minimum of the dataset
  */
- unsigned char find_minimum(unsigned char *arr, int length);
+ unsigned char find_minimum(unsigned char *arr, unsigned int length);
 
 
 /**
@@ -131,7 +131,7 @@
  *
  * @return None
  */
- void sort_array(unsigned char *arr, int length);
+ void sort_array(unsigned char *arr, unsigned int length);
 
 
 
